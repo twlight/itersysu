@@ -1,0 +1,1333 @@
+2014/05/29 00:01:25 [error] [php] filesize(): stat failed for 14012928842656 (/usr/local/nginx/html/protected/controllers/ResumeController.php:920)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:02:08 [error] [php] filesize(): stat failed for 14012929271449.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:920)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:02:11 [error] [php] filesize(): stat failed for 1401292930775.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:920)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:02:42 [error] [php] filesize(): stat failed for 14012929614243.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:920)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:05:03 [error] [php] filesize(): stat failed for 14012931028779.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:918)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:05:06 [error] [php] filesize(): stat failed for 14012931054947.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:918)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:06:16 [error] [php] fopen(14012931756076pdf): failed to open stream: No such file or directory (/usr/local/nginx/html/protected/controllers/ResumeController.php:919)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:07:08 [error] [php] fopen(/usr/local/nginx/html/protected/tmp/1401293227868pdf): failed to open stream: No such file or directory (/usr/local/nginx/html/protected/controllers/ResumeController.php:919)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=71
+2014/05/29 00:24:15 [error] [php] filesize(): stat failed for /usr/local/nginx/html/resume/zhyaof_1398742317.docx (/usr/local/nginx/html/protected/controllers/ResumeController.php:934)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=32
+2014/05/29 00:27:37 [error] [php] filesize(): stat failed for /usr/local/nginx/html/resume/zhyaof_1399025716.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:934)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=48
+2014/05/29 00:27:38 [error] [php] filesize(): stat failed for /usr/local/nginx/html/resume/zhyaof_1399025716.pdf (/usr/local/nginx/html/protected/controllers/ResumeController.php:934)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=48
+2014/05/29 00:29:28 [error] [php] fopen(/usr/local/nginx/html/resume/zhyaof_1399025716.pdf): failed to open stream: No such file or directory (/usr/local/nginx/html/protected/controllers/ResumeController.php:937)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/download&id=48
+2014/05/29 08:18:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=1
+---
+2014/05/29 08:18:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:25:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:26:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:26:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:26:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:26:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:26:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:28:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:29:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:30:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:30:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:30:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:30:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:31:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:31:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:31:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:31:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.1' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:32:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.2' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:43:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.2' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:43:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.2' in /usr/local/nginx/html/protected/controllers/ResumeController.php:905
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:44:05 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.Userd' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `tb_Submitted` `s`
+JOIN `tb_WorkinfoDetail` `d` ON s.WorkinfoDetailId=d.Id
+JOIN `tb_Workinfo` `w` ON d.WorkinfoId=s.Id
+JOIN `tb_Company` `c` ON w.CompanyId=s.Id
+WHERE c.Userd=:id AND s.ResumeId=:rid.
+2014/05/29 08:44:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.Userd' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `tb_Submitted` `s`
+JOIN `tb_WorkinfoDetail` `d` ON s.WorkinfoDetailId=d.Id
+JOIN `tb_Workinfo` `w` ON d.WorkinfoId=s.Id
+JOIN `tb_Company` `c` ON w.CompanyId=s.Id
+WHERE c.Userd=:id AND s.ResumeId=:rid' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /usr/local/nginx/html/protected/controllers/ResumeController.php(920): CDbCommand->queryRow()
+#2 [internal function]: ResumeController->actionDownload('37')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#14 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#15 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#16 /usr/local/nginx/html/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:44:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.2' in /usr/local/nginx/html/protected/controllers/ResumeController.php:923
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:44:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.2' in /usr/local/nginx/html/protected/controllers/ResumeController.php:923
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('37')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=37
+---
+2014/05/29 08:45:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.2' in /usr/local/nginx/html/protected/controllers/ResumeController.php:923
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('60')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=60
+---
+2014/05/29 08:52:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:912
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('34')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=34
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/admin
+---
+2014/05/29 08:52:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:912
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('34')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=34
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/admin
+---
+2014/05/29 08:52:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:912
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('60')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=60
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/admin
+---
+2014/05/29 08:52:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:912
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('71')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=71
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/admin
+---
+2014/05/29 08:53:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.' in /usr/local/nginx/html/protected/controllers/ResumeController.php:912
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('71')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=71
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/admin
+---
+2014/05/29 08:53:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Access deny.1' in /usr/local/nginx/html/protected/controllers/ResumeController.php:912
+Stack trace:
+#0 [internal function]: ResumeController->actionDownload('34')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('download')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/download')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=resume/download&id=34
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/admin
+---
+2014/05/29 09:04:00 [error] [php] Invalid argument supplied for foreach() (/usr/local/nginx/html/protected/controllers/ResumeController.php:563)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): ResumeController->runAction()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): ResumeController->filterAccessControl()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): ResumeController->runActionWithFilters()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): ResumeController->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=resume/admin
+2014/05/29 09:07:10 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:07:24 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:07:25 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:07:51 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:08:00 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:08:01 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:26:38 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:26:41 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:26:42 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:27:25 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:27:28 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:27:29 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:40:04 [error] [exception.CException] exception 'CException' with message '属性 "FileForm.isNewRecord" 未被定义.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CComponent.php:130
+Stack trace:
+#0 /usr/local/nginx/html/protected/views/resume/addbyfile.php(24): CComponent->__get('isNewRecord')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CBaseController.php(126): require('/usr/local/ngin...')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CBaseController.php(95): CBaseController->renderInternal('/usr/local/ngin...', Array, true)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(869): CBaseController->renderFile('/usr/local/ngin...', Array, true)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(782): CController->renderPartial('addbyfile', Array, true)
+#5 /usr/local/nginx/html/protected/controllers/ResumeController.php(380): CController->render('addbyfile', Array)
+#6 [internal function]: ResumeController->actionAddbyfile(NULL)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ResumeController), Array)
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ResumeController), Object(ReflectionMethod), Array)
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#16 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('addbyfile')
+#18 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/addbyfil...')
+#19 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#20 /usr/local/nginx/html/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=resume/addbyfile
+HTTP_REFERER=http://114.215.183.181/index.php?r=resume/select
+---
+2014/05/29 09:44:16 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:44:19 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:44:54 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:44:57 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:44:59 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:45:00 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:45:03 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:45:04 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:45:08 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:45:09 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:45:10 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:53:09 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:53:27 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 09:53:29 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:19:32 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:19:34 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:19:37 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:19:42 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:19:44 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:19:46 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:21:11 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:21:24 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:21:27 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:24:14 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:24:16 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:24:18 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:30:21 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:30:22 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:30:25 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:32:42 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:32:43 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:32:46 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:37:49 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:37:57 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:37:58 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:38:54 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:39:01 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:39:03 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:47:33 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:47:35 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 10:47:38 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:08:04 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:08:09 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:08:10 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:09:02 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:09:12 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:09:14 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:09:57 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:09:59 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:10:00 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:14:31 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:14:34 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:14:36 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:15 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:20 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:21 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:32 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:39 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:40 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:51 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:15:58 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:16:00 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:16:33 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:16:36 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:16:37 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:18:26 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:18:27 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:18:29 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 12:24:05 [warning] [application] Failed to set unsafe attribute "Id" of "RBaseForm".
+2014/05/29 12:24:05 [warning] [application] Failed to set unsafe attribute "Img" of "RBaseForm".
+2014/05/29 12:24:18 [warning] [application] Failed to set unsafe attribute "Id" of "RBaseForm".
+2014/05/29 12:24:18 [warning] [application] Failed to set unsafe attribute "Img" of "RBaseForm".
+2014/05/29 16:16:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/default/ind...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii/default/index
+---
+2014/05/29 16:17:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii/default/login
+---
+2014/05/29 16:18:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(ModelGenerator), Object(CInlineAction))
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii/model
+---
+2014/05/29 16:19:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/05/29 18:59:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(WebUser), '???????????????...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('login')
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /usr/local/nginx/html/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://114.215.183.181/index.php?r=site/login
+---
+2014/05/29 19:24:23 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 19:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "sumitted" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('sumitted')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('sumitted')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/sumitted')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=resume/sumitted
+HTTP_REFERER=http://114.215.183.181/index.php?r=workinfo/detail&id=2
+---
+2014/05/29 19:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "sumitted" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('sumitted')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('sumitted')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/sumitted')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=resume/sumitted
+HTTP_REFERER=http://114.215.183.181/index.php?r=workinfo/detail&id=1
+---
+2014/05/29 19:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "addbyfileMDEzNjEyODAzNTAxQUsseWtfLDIxNzQyMDQ5NTEsNjEuMTg1LjgyLjExLDEzNzEwNjEwMTEwNTEwMCxDaHJvbWUsV2luZG93cyA3LHpoLCwseWtfNSwwLGRUWUkyaSxodHRwOi8vdi55b3VrdS5jb20vdl9zaG93L2lkX1hOekU0TURVek5qVXkuaHRtbD90cGE9ZFc1cGIyNWZhV1E5TVRBeU1qRXpYekV3TURBd05sOHdNVjh3TVEsYTE1LXQyMC0xNDAxMzYxNzExLTgyLTM5OQ==" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('addbyfileMDEzNj...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('addbyfileMDEzNj...')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/addbyfil...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=resume/addbyfileMDEzNjEyODAzNTAxQUsseWtfLDIxNzQyMDQ5NTEsNjEuMTg1LjgyLjExLDEzNzEwNjEwMTEwNTEwMCxDaHJvbWUsV2luZG93cyA3LHpoLCwseWtfNSwwLGRUWUkyaSxodHRwOi8vdi55b3VrdS5jb20vdl9zaG93L2lkX1hOekU0TURVek5qVXkuaHRtbD90cGE9ZFc1cGIyNWZhV1E5TVRBeU1qRXpYekV3TURBd05sOHdNVjh3TVEsYTE1LXQyMC0xNDAxMzYxNzExLTgyLTM5OQ==&winpricemz=2.0rtmp&termid=1&pay=0&ostype=WindowsXP&hwtype=un&playid=1&abtimeshift=1401361269&rdm=1401361294609&rstart=564&rend=94939&rd=14013612948753679421&pay=0&rateid=1300&gn=893&buss=100&qos=3&cips=111.174.164.63&rd=1230900785015LbqufbqufdsMTbmtv0A0LbqwHgA1flwKzyvufbsw1VotuXlMPWzYzPC0zVCLDHCMq9zMfSC2uMA2nty29Yzt0XmdaMAxrLBvbYAwnLpsz2B2X1Bwu9mczZB3vYy2vuExbLpxr1BwvPDgK=&title=��?a???????��????��?��?��? ??????��??��?? ??��???�����?-? ������???????��?&imgType=jpg
+---
+2014/05/29 19:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "sumitted" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('sumitted')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('sumitted')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/sumitted')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=resume/sumitted
+HTTP_REFERER=http://114.215.183.181/index.php?r=job/search
+---
+2014/05/29 19:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "sumitted" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('sumitted')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('sumitted')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/sumitted')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=resume/sumitted
+HTTP_REFERER=http://114.215.183.181/index.php?r=job/search
+---
+2014/05/29 19:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index704_5960_712520.ts?stream_id=bjws" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('index704_5960_7...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('index704_5960_7...')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index704_5...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/index704_5960_712520.ts?stream_id=bjws&ltm=1401397536&lkey=9802f4ceb60a65b2ba4caf0a1469b4b7&platid=10&splatid=1001&tag=live&video_type=m3u8&useloc=0&mslice=5&path=58.56.165.2,122.228.216.130,122.228.216.225&buss=27&qos=2&cips=27.190.98.177&geo=CN-3-46-1&tmn=1401361536&pnl=822,876,233&rson=0&ext=m3u8&sign=live_web&scheme=rtmp&termid=1&pay=0&ostype=WindowsXP&hwtype=un&playid=1&abtimeshift=1401362697&rdm=1401362728375&rstart=89488&rend=178411&rd=1401362728890iscpn=f9051&rateid=1300&gn=811&buss=198&qos=4&cips=182.150.96.27&rstart=667024&rend=1744639&rd=1401363040843=1
+---
+2014/05/29 19:56:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "indexnd" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('indexnd')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('indexnd')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('share/indexnd/b...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=share/indexnd/bet.mdata?ver=3343gsCacheBusterID=1401362782510&purpose=audit03074&platid=10&splatid=1001&tag=live&video_type=m3u8&useloc=0&mslice=5&path=60.164.223.138,202.100.74.3,202.100.74.100&buss=27&qos=2&cips=49.119.68.98&geo=CN-31-0-1&tmn=1401362224&pnl=802,868,239&rson=1&ext=m3u8&sign=live_web&scheme=rtmp&termid=1&pay=0&ostype=Windows7&hwtype=un&playid=1&abtimeshift=1401362792&rdm=1401362803776XpnmNB-fyfazmUe6UifiTEHaWWRnpta3d8E3t_8gxGEvS79kgIiMvXBS6JL7EB0xu_REl1y5uYUotmUkLmdTyYxJVDI9UCkVdG6bNqqqwW1gzpr2itHENs4AGtKyagpXg7JnUAaAGIQ&num=1&sig=AOD64_1G0Z-iObHzwQtjRyHeK1f3XID37Q&client=ca-pub-9964412893448313&adurl=http://ad.agrantsem.com/AdServer/Tt?cus=16&eid=1&src=ADX&mid=16_790341dd11b9b064&site=www.xiegw.cn&width=336&height=280&vs=2&reqid=314C2B8C60EE4C5A9CA0B93C0F1DB33F&p=16-1-371b9101bf0b6807ef6d165ebe856fcd&d=http%3a%2f%2fwww.qunar.com%2f%3fex_track%3dauto_52c22d2800
+---
+2014/05/29 19:56:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index1362806_5960_507600.ts?stream_id=dongfang" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('index1362806_59...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('index1362806_59...')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('announce/index1...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=announce/index1362806_5960_507600.ts?stream_id=dongfang&ltm=1401397931&lkey=a21c3f4cb6bd990e1f839aba90f907c4&platid=10&splatid=1001&tag=live&video_type=m3u8&useloc=0&mslice=5&path=112.25.62.132,112.25.27.105&buss=27&qos=3&cips=120.198.243.98&geo=CN-19-0-4&tmn=1401361931&pnl=146,146,243&rson=1&ext=m3u8&sign=live_web&scheme=rtmp&termid=1&pay=0&ostype=WindowsXP&hwtype=un&playid=1&abtimeshift=1401362798&rdm=1401362815750&rstart=127276&rend=190631&rd=14013628159535623329&pay=0&rateid=350&gn=887&buss=100&qos=3&cips=124.116.116.250&rd=1401362662078314b529c23161cda386a848d0a3b8fd12596610300&fm=sc&query=��?��?����,��??���?��?��?������?��3��y������?1:5,��?1??��?��70��3,��??�䨮??��?���?��3��y������?2:3,?a��?������D?��������3?��&qid=&p1=1QWeQ
+---
+2014/05/29 20:19:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "searchcBdnFwwnghip8GqC_SX4WsuuW-YjMKM7i0hpC0ZlyV7XCf1RFW19KRUvrFunW3JtpBVA8CJ8E1n1o6XVnl-c1wwFlwi" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('searchcBdnFwwng...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('searchcBdnFwwng...')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('job/searchcBdnF...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=job/searchcBdnFwwnghip8GqC_SX4WsuuW-YjMKM7i0hpC0ZlyV7XCf1RFW19KRUvrFunW3JtpBVA8CJ8E1n1o6XVnl-c1wwFlwi&key=16e6b5d4e7a4d3a222faa9e0fb382c0d&q=eNpdUNtugzAM_ZdKfXODHVwnJmFPe-lvTAhRyiSStlAV-vVzuj1sUxw7yvE5vswNMzU7XCIbogfrUDyQQ2JxVOuTamOtUU9sgRgoBpQIDPgPEyqwJiggzinV6qnhNC0fjLhaj5AvfYLzslxc9vy-t0e12-d2NevYD3m5t8l0edLPrr11OW0vSUQIEIUO0TOkrGUPpA62ftZQ_B-9cRpMfAw_Qvc05qTR6bUsUpv5cQLtBko3hdhUVaGs3RYKp1LNV1wiTGObn2dtV8fBMi3Dd3lNMFhCBPi1KTRBPOn-cPf2BQMeVjY,&url=huvs://ibt.tmftfao001.ivm/dew/zorfcg_25746_1_11.huoo&ref=huvs://ibt.tmftfao001.ivm/dew/zorfcg_25746_1_10.huoo&cok=1&hot=0
+---
+2014/05/29 20:41:16 [warning] [application] Failed to set unsafe attribute "file" of "FileForm".
+2014/05/29 21:10:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "logoutQ5NjI2NHxiOGJiZGI3Y3wxNDAxMzY2ODg4fDB8MTMwODkyMA==" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('logoutQ5NjI2NHx...')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('logoutQ5NjI2NHx...')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('site/logoutQ5Nj...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/logoutQ5NjI2NHxiOGJiZGI3Y3wxNDAxMzY2ODg4fDB8MTMwODkyMA%3D%3D&nothumb=yes88&path=/data3/www&su=50011cb8b5b6f0fd4a3a346cc918f47c&client=&z=&bt=&ct=&tn=10145&uuid=e5b2bfc158abf93959dd56dacba651837622ef34a31566351efbd171adaec815&range=7864320-18350079&ran=0.26835242798551917&l=t&zc=jiamusi_cnc_t&retry=1&uuid=e5b2bfc158abf93959dd56dacba65183df73f52e5ad8f94bd4b0d93d8b7d6ec4dd31a5c2008317ee475c7f81ae0252df75f92a74d69dadc95f42f&pid=115&tvid=765694&sz=1296_560&md=CnJsXxw9soryXBoCokaVVcFUm5UeU+COETYvWg==182&pt=1
+---
+2014/05/29 21:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "submittedm" 动作.' in /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php:483
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(270): CController->missingAction('submittedm')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('submittedm')
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('resume/submitte...')
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /usr/local/nginx/html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=resume/submittedm/573722/1.4&pid=6a021baed23bb5f5f89a097664607b4a8588cd268ae2c0928268c3a7243aa614&scr=0[96-5-02-1-991-1-0296]&cr=25&pc=1&upc=0&dpc=1&udpc=9&us=163840&ds=0&pp=5059&sfid=0&token=a74b5ae6e91626d561a683bb7abe28e914013666559-246-11&tmn=1401199545&pnl=344,877,232&rson=0&ext=m3u8&sign=live_web&scheme=rtmp&termid=1&pay=0&ostype=WindowsXP&hwtype=un&playid=1&abtimeshift=1401364269&rdm=1401367358765
+---
+2014/05/29 21:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /usr/local/nginx/html/protected/controllers/ShareController.php:106
+Stack trace:
+#0 [internal function]: ShareController->actionDetail('258562/1.4')
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ShareController), Array)
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ShareController), Object(ReflectionMethod), Array)
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): CController->run('detail')
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController('share/detail')
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /usr/local/nginx/html/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=share/detail&id=258562/1.4&pid=d1259eb7fb9aca630001a945a8ac19deb5eb48bf9108dd7ecdeea82c1a0aa711&scr=0[9237-4-0106]&cr=69&pc=9&upc=7&dpc=2&udpc=3&us=921600&ds=3848&pp=11871&sfid=0&token=7b95cd722f7cb37ccf508be767c8bfad14013637503.6.109.125&geo=CN-8-94-2&tmn=1401364711&pnl=733,716,203&rson=0&ext=m3u8&sign=live_web&scheme=rtmp&termid=1&pay=0&ostype=WindowsXP&hwtype=un&playid=1&abtimeshift=1401367453&rdm=1401368038109&rstart=435972&rend=508539&rd=140136803825038.215&rd=1262315151734stat.tanx.com/trd?&f=http://souke.xdf.cn/Course/1-7295.html&k=c8c1e7795c5e284f&p=mm_26632206_2690592_21024578&pvid=0af6252300001eb853872bae0054e71a&s=300x250&d=29628780&t=1401367470>6
+---
+2014/05/29 22:31:53 [error] [php] fsockopen(): unable to connect to whois.iana.org:43 (Connection timed out) (/usr/local/nginx/html/protected/views/my/loginlog.php:66)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CBaseController.php(126): require()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CBaseController.php(95): MyController->renderInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(869): MyController->renderFile()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(782): MyController->renderPartial()
+#4 /usr/local/nginx/html/protected/controllers/MyController.php(58): MyController->render()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): MyController->actionLoginlog()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): MyController->runAction()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): MyController->filterAccessControl()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): MyController->runActionWithFilters()
+#14 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): MyController->run()
+#15 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=my/loginlog
+2014/05/29 22:32:02 [error] [php] fsockopen(): unable to connect to whois.iana.org:43 (Connection timed out) (/usr/local/nginx/html/protected/views/my/loginlog.php:66)
+Stack trace:
+#0 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CBaseController.php(126): require()
+#1 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CBaseController.php(95): MyController->renderInternal()
+#2 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(869): MyController->renderFile()
+#3 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(782): MyController->renderPartial()
+#4 /usr/local/nginx/html/protected/controllers/MyController.php(58): MyController->render()
+#5 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/actions/CInlineAction.php(49): MyController->actionLoginlog()
+#6 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(133): MyController->runAction()
+#8 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CInlineFilter.php(58): MyController->filterAccessControl()
+#11 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(291): CFilterChain->run()
+#13 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CController.php(265): MyController->runActionWithFilters()
+#14 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(282): MyController->run()
+#15 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /usr/local/nginx/html/yii-1.1.13.e9e4a0/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /usr/local/nginx/html/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=my/loginlog
+2014/07/02 00:00:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\wamp\www\protected\views\site\index.php(146): CModule->__get('db')
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 C:\wamp\www\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\wamp\www\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/
+---
+2014/07/02 00:14:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\wamp\www\protected\views\site\index.php(146): CModule->__get('db')
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 C:\wamp\www\protected\controllers\SiteController.php(125): CController->render('index', Array)
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\wamp\www\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/
+---
